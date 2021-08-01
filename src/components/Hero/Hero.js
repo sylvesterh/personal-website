@@ -1,0 +1,31 @@
+import React from "react";
+
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
+
+const Hero = (props) => (
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Welcome To <br />
+        My Personal Portfolio
+      </SectionTitle>
+      <SectionText>
+        My purpose is to create solutions using MERN tech stack and resolve
+        issues that arise in the production of which.
+      </SectionText>
+      <Button
+        onClick={() => (window.location.href = "mailto:sylvesterhoe@gmail.com")}
+      >
+        Learn More
+      </Button>
+    </LeftSection>
+  </Section>
+);
+
+export default Hero;
