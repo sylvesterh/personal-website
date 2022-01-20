@@ -42,7 +42,8 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Django, Express, <br />
-            MongoDB & Node
+            MongoDB, PostgreSQL <br />
+            Typegraphql & Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -53,7 +54,8 @@ const Technologies = () => (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Javascript, Python
+            Javascript, Python <br />
+            Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
