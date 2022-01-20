@@ -29,6 +29,16 @@ export const projects = [
     visit: "https://github.com/Jayyr2040/dog-tinder",
     id: 2,
   },
+  {
+    title: "Len-U-Car",
+    description:
+      "A single-page application that takes after Airbnb. This is built as a team using PERN stack, Redis, Typescript and other small libraries.",
+    image: "/images/4.png",
+    tags: ["PostgreSQL", "Express", "React", "Node"],
+    source: "https://len-u-car.herokuapp.com",
+    visit: "https://github.com/SparrowMike/len-u-car",
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
@@ -39,4 +49,4 @@ export const TimeLineData = [
   { year: 2021, text: "Started my journey as a Developer" },
 ];
 
-export const AccomplishmentData = [{ number: 3, text: "Projects" }];
+export const AccomplishmentData = [{ number: 4, text: "Projects" }];
